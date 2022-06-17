@@ -72,7 +72,7 @@ pipeline {
 				
 		stage('Pousse image dans staging et la deploie') {
 			when {
-					expression { GIT_BRANCH == 'origin/main' }
+					expression { GIT_BRANCH == 'origin/master' }
 				}
 			agent any
 			environment {
@@ -93,7 +93,7 @@ pipeline {
 		
 		stage('Pousse image dans production et la deploie') {
 			when {
-					expression { GIT_BRANCH == 'origin/main' }
+					expression { GIT_BRANCH == 'origin/master' }
 				}
 			agent any
 			environment {
