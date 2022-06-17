@@ -36,7 +36,7 @@ pipeline {
 			steps {
 				script {
 					sh '''
-						curl http://192.168.40.65 | grep -q "Axel ROTTHIER"
+						curl http://192.168.0.65 | grep -q "Axel ROTTHIER"
 					'''
 				}
 			}
