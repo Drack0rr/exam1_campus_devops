@@ -4,8 +4,8 @@ pipeline {
 		ID_DOCKER = "drackorr"
 		IMAGE_NAME = "exam1_campus_devops"
 		IMAGE_TAG = "latest"
-		STAGING = "exam1_campus_devops-staging"
-		PRODUCTION = "exam1_campus_devops-production"
+		STAGING = "exam1-campus-devops-staging"
+		PRODUCTION = "exam1-campus-devops-production"
 		PORT = "80"
 	}
 	agent none
